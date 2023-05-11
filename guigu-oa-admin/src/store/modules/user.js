@@ -70,6 +70,7 @@ const actions = {
         commit('SET_NAME', name)
         commit('SET_AVATAR', avatar)
         //debugger
+        //获得权限控制
         commit("SET_BUTTONS", data.buttons)
         commit("SET_MENUS", data.routers)
         resolve(data)
